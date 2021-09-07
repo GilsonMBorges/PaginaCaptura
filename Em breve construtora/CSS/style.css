@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    
+}
+.container{
+    
+    max-width: 1000px;  
+    margin: auto;
+
+}
+
+header{
+    background-color: #0c7596;  
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+section{
+
+    padding: 20px;
+    background-image: url(../images/capa.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.formcontainer{
+
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-image: linear-gradient(-90deg,rgb(113, 121, 116), rgb(78, 147, 170));
+    font-weight: bold;
+
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) , 50% ;
+}
+
+footer{
+    background-color: gray;
+    padding: 40px;
+    text-align: center;  
+}
+.borda{
+    border: black;
+    border-style: solid;
+    padding: 25px;
+    margin: auto;
+
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    display: inline-block;
+    text-align: left;
+    color: black;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: balck;
+}
+
+
+@media all and (max-width: 600px) {
+    .formcontainer{
+        float: none;
+        margin: auto;
+    }
+    #ds1 {
+        position: absolute;
+        right: 300px;
+      }
+    .picture{
+   padding: 10px;
+    }
+    .description{
+    display: block; 
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;   
+    }
+  }
